@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 
 local font_family = "Iosevka Nerd Font"
-local font_size = 12
+local font_size = 18
 
 local cell_width = 1
 
