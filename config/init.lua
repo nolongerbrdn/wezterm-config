@@ -19,10 +19,10 @@ local config = {}
 
 for _, mod in ipairs({
   'config.appearance',
-  'config.general',
-  'config.launch',
-  'config.bindings',
-  'config.fonts'
+ --'config.general',
+  --'config.launch',
+  --'config.bindings',
+  --'config.fonts'
 }) do
 	append(config, require(mod))
 end
